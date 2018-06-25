@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todos_sqflite_flutter_app/todos_screen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -11,8 +12,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-//      home: new MyHomePage(title: 'Flutter Demo Home Page'),
+      home: TodosScreen(),
     );
   }
 }
-
